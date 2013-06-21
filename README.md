@@ -6,11 +6,11 @@ Note: this is under development and is probably broken. Patches welcome.
 
 ## Installation
 
-    $ https://github.com/bakins/vagrant-fifo.git
+    $ git clone https://github.com/bakins/vagrant-fifo.git
     $ cd vagrant-fifo
-    $ gem build vagrant-fifo.gemspec ; 
-    $ vagrant plugin install vagrant-fifo-0.2.1.gem 
-    $ vagrant box add dummy ./dummy.box
+    $ gem build vagrant-fifo.gemspec
+    $ vagrant plugin install vagrant-fifo-*.gem 
+    $ vagrant box add example ./example_box/fifo.box
 
 ## Usage
 
